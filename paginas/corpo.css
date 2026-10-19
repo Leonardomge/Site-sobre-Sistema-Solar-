@@ -1,0 +1,74 @@
+body.corpo {
+    background-color: #0A1033;
+    color: #FFFFFF;
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.corpo header {
+    background-color: #080F31;
+    padding: 24px 0 12px;
+}
+
+.corpo .voltar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    box-sizing: border-box;
+    margin: 0 0 0 20px;
+    color: #C5CAF0;
+    border: 2px solid #C5CAF0;
+    border-radius: 6px;
+}
+
+.corpo .voltar svg {
+    width: 24px;
+    height: 24px;
+}
+
+.corpo h1 {
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 16px 16px 4px;
+}
+
+.corpo .foto {
+    display: block;
+    width: calc(100% - 64px);
+    height: auto;
+    margin: 20px 32px;
+    background-color: #000000;
+}
+
+.corpo .card {
+    background-color: #171F52;
+    border-radius: 20px;
+    padding: 20px 28px 12px;
+    margin: 14px 14px 0;
+}
+
+.corpo .card h2 {
+    background: none;
+    border-radius: 0;
+    text-align: left;
+    line-height: 1.2;
+    font-size: 1.9rem;
+    margin: 0 0 8px;
+}
+
+.corpo .card h3 {
+    color: #B9C0F5;
+    font-size: 1.05rem;
+    font-weight: bold;
+    margin: 18px 0 2px;
+}
+
+.corpo .card p {
+    font-size: 1.35rem;
+    line-height: 1.4;
+    margin: 0 0 12px;
+}
