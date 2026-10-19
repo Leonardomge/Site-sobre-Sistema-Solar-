@@ -72,3 +72,60 @@ body.corpo {
     line-height: 1.4;
     margin: 0 0 12px;
 }
+
+.corpo .curiosidades {
+    padding-bottom: 28px;
+}
+
+.corpo .curiosidades .lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.corpo .curiosidades .lista li {
+    font-size: 1.35rem;
+    line-height: 1.4;
+    margin: 0 0 12px;
+}
+
+.corpo .curiosidades.ativo .lista {
+    display: none;
+}
+
+.corpo .curiosidades .contador {
+    color: #B9C0F5;
+    font-size: 1.05rem;
+    margin: 0 0 12px;
+}
+
+.corpo .curiosidades .texto {
+    min-height: 6.5rem;
+    margin: 0 0 24px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.corpo .curiosidades .botoes {
+    display: flex;
+    gap: 14px;
+}
+
+.corpo .curiosidades button {
+    flex: 1;
+    height: 70px;
+    border: none;
+    border-radius: 35px;
+    background-color: #D32F2F;
+    color: #FFFFFF;
+    font-family: inherit;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.corpo .curiosidades button:disabled {
+    background-color: #2E3668;
+    color: #7D84B3;
+    cursor: default;
+}
